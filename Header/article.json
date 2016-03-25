@@ -6,6 +6,17 @@
 	"layout": {},
 	"components": [
 	{
+  "role": "header",
+  "layout": {
+    "ignoreDocumentMargin": true,
+    "minimumHeight": "25vh"
+  },
+  "style": {
+    "fill": {
+      "type": "image",
+      "URL": "bundle://header.jpg"
+    }
+	}},{
 		"role": "title",
 		"text": "My First Article"
 	}, {
