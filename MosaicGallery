@@ -1,0 +1,84 @@
+{
+	"version": "1.1",
+	"identifier": "sketchyTech_Demo",
+	"title": "My First Article",
+	"language": "en",
+	"layout": {},
+	"components": [{
+		"role": "title",
+		"text": "My First Article",
+		"textStyle": "titleStyle"
+	}, 
+	{
+  "role": "mosaic",
+  "items": [
+    {
+      "URL": "bundle://image1.jpg",
+      "caption": "Taipei, Taiwan: Pilars of the Taipei Bridge.",
+	  "accessibilityCaption": "A view from underneath the Taipei Bridge."
+    },
+    {
+      "URL": "bundle://image2.jpg",
+      "caption": "Neue Wache (New Guardhouse) in Berlin-Mitte at night. It was built from 1816 and 1818 according to plans of Karl Friedrich Schinkel. It is one of the main works of German classicism."
+    },
+    {
+      "URL": "bundle://image3.jpg",
+	  "caption":"A U.S. Marine Corps C-130T Hercules aircraft with the Blue Angels, the Navy's flight demonstration squadron, flies over Marines with the Silent Drill Platoon at Marine Corps Air Station Yuma, Arizona."
+    },
+    {
+      "URL": "bundle://image4.jpg",
+	  "caption":"Vaults in the nave of cathedral Notre-Dame de Paris, France.",
+	  "accessibilityCaption":"Vaults in the nave of cathedral Notre-Dame de Paris, France. The pillars are slightly offset, so that the vaults are a bit skewed."
+  }
+  ]
+  },{
+		"role": "body",
+		"format": "markdown",
+		"text": "This is just over the minimum amount of _JSON_ required to create a valid article in Apple News Format. If you were to delete the dictionary enclosing this text, you'd be there.",
+		"textStyle": "bodyStyle"
+	}, 
+	{
+  "role": "gallery",
+  "items": [
+    {
+      "URL": "bundle://image1.jpg",
+      "caption": "Taipei, Taiwan: Pilars of the Taipei Bridge.",
+	  "accessibilityCaption": "A view from underneath the Taipei Bridge."
+    },
+    {
+      "URL": "bundle://image2.jpg",
+      "caption": "Neue Wache (New Guardhouse) in Berlin-Mitte at night. It was built from 1816 and 1818 according to plans of Karl Friedrich Schinkel. It is one of the main works of German classicism."
+    },
+    {
+      "URL": "bundle://image3.jpg",
+	  "caption":"A U.S. Marine Corps C-130T Hercules aircraft with the Blue Angels, the Navy's flight demonstration squadron, flies over Marines with the Silent Drill Platoon at Marine Corps Air Station Yuma, Arizona."
+    },
+    {
+      "URL": "bundle://image4.jpg",
+	  "caption":"Vaults in the nave of cathedral Notre-Dame de Paris, France.",
+	  "accessibilityCaption":"Vaults in the nave of cathedral Notre-Dame de Paris, France. The pillars are slightly offset, so that the vaults are a bit skewed."
+  }
+  ]
+  }],
+	"componentTextStyles": {
+		"titleStyle": {
+			"textAlignment": "center",
+			"fontName": "HelveticaNeue-Bold",
+			"fontSize": 64,
+			"lineHeight": 74,
+			"textColor": "#000"
+		},
+		"bodyStyle": {
+			"textAlignment": "left",
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 26,
+			"textColor": "#000"
+		}
+	},
+	"textStyles": {
+		"redText": {
+			"textColor": "#FF00007F"
+		}
+	}
+}
