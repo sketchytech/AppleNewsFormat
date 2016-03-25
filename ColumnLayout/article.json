@@ -1,0 +1,66 @@
+{
+	"version": "1.1",
+	"identifier": "sketchyTech_Demo",
+	"title": "My First Article",
+	"language": "en",
+	"layout": {
+		"columns": 3,
+		"width": 1024,
+		"margin": 30,
+		"gutter": 20
+	},
+	"components": [{
+		"role": "title",
+		"text": "My First Article",
+		"textStyle": "titleStyle"
+	}, {
+
+
+		"role": "body",
+		"format": "markdown",
+		"text": "This is a demonstration of columns in action. This text exists in the first column and spans a single column. The entire article is three columns wide, as defined in the **layout** in the top-level of the JSON dictionary.",
+		"textStyle": "bodyStyle",
+		"layout": {
+			"columnStart": 0,
+			"columnSpan": 1,
+			"margin": {
+				"top": 50,
+				"bottom": 50
+			}
+		}
+	}, {
+		"role": "body",
+		"format": "markdown",
+		"text": "Here we have a _second_ text component. As you can see this text is now starting in the second column, i.e. the one at index 1, and spanning two of the three columns defined in the overall document. But because this is adaptive layout you will only see all three columns displayed when the available screen area is large enough to do so. At other times the layout will adapt and components will run one after the other rather than in columns. Viewed on a regular-sized iPad in portrait, for example, you will see this text component beneath the previous one (in a rather awkward way!), but turn into landscape orientation and you see the columns side by side. On the iPad Pro in portrait and landscape you will see the columns side by side because space allows it.",
+		"textStyle": "bodyStyle",
+		"layout": {
+			"columnStart": 1,
+			"columnSpan": 2,
+			"margin": {
+				"top": 50,
+				"bottom": 50
+			}
+		}
+	}],
+	"componentTextStyles": {
+		"titleStyle": {
+			"textAlignment": "center",
+			"fontName": "HelveticaNeue-Bold",
+			"fontSize": 64,
+			"lineHeight": 74,
+			"textColor": "#000"
+		},
+		"bodyStyle": {
+			"textAlignment": "justified",
+			"fontName": "Georgia",
+			"fontSize": 18,
+			"lineHeight": 26,
+			"textColor": "#000"
+		}
+	},
+	"textStyles": {
+		"redText": {
+			"textColor": "#FF00007F"
+		}
+	}
+}
