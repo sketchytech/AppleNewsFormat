@@ -1,0 +1,43 @@
+{
+    "version": "1.1",
+    "identifier": "sketchyTech_Demo",
+    "title": "My First Article",
+    "language": "en",
+    "layout": {},
+    "components": [{
+        "role": "title",
+        "text": "My First Article",
+        "textStyle": "titleStyle",
+        "inlineTextStyles": [{
+            "rangeStart": 3,
+            "rangeLength": 5,
+            "textStyle": "redText"
+        }]
+    }, {
+        "role": "body",
+        "format": "markdown",
+        "text": "This is just over the minimum amount of _JSON_ required to create a valid article in Apple News Format. If you were to delete the dictionary enclosing this text, you'd be there.",
+        "textStyle": "bodyStyle"
+    }],
+    "componentTextStyles": {
+        "titleStyle": {
+            "textAlignment": "center",
+            "fontName": "HelveticaNeue-Bold",
+            "fontSize": 64,
+            "lineHeight": 74,
+            "textColor": "#000"
+        },
+        "bodyStyle": {
+            "textAlignment": "left",
+            "fontName": "IM_FELL_DW_Pica_Roman",
+            "fontSize": 18,
+            "lineHeight": 26,
+            "textColor": "#000"
+        }
+    },
+    "textStyles": {
+        "redText": {
+            "textColor": "#FF00007F"
+        }
+    }
+}
