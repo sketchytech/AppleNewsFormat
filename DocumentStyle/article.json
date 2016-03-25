@@ -1,0 +1,22 @@
+{
+    "version": "1.1",
+    "identifier": "sketchyTech_Demo",
+    "title": "My First Article",
+    "language": "en",
+    "layout": {},
+    "components": [
+        {
+            "role": "title",
+            "text": "My First Article"
+        },    
+        {
+            "role": "body",
+            "text": "This is just over the minimum amount of JSON required to create a valid article in Apple News Format. If you were to delete the dictionary enclosing this text, you'd be there."
+        }
+    ],
+    "componentTextStyles": {},
+    "documentStyle":
+    {
+	  "backgroundColor": "#8FBC8F"
+    }
+}
