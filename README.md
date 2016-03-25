@@ -83,4 +83,4 @@ There are four types of [Component Animations](https://developer.apple.com/libra
 
 ## Custom Fonts
 
-Note: From a technical point of view custom fonts work, but there is currently no mention in the Apple docs to confirm that you are allowed to use them. For safety only use those fonts listed at [iOSFonts.com](http://iOSFonts.com) and avoid the San Francisco font.
+From a technical point of view custom fonts work, but there is [currently no mention](http://stackoverflow.com/a/36187801/1694526) in the Apple docs to confirm that you are allowed to use them. For safety only use those fonts listed at [iOSFonts.com](http://iOSFonts.com) and avoid the San Francisco font.
