@@ -7,9 +7,10 @@
 	"components": [
 	{
   "role": "header",
+	"behavior":{"type":"background_parallax"},
   "layout": {
     "ignoreDocumentMargin": true,
-    "minimumHeight": "25vh"
+    "minimumHeight": "50vh"
   },
   "style": {
     "fill": {

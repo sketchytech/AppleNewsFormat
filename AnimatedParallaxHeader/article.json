@@ -1,0 +1,43 @@
+{
+	"version": "1.1",
+	"identifier": "sketchyTech_Demo",
+	"title": "My First Article",
+	"language": "en",
+	"layout": {},
+	"components": [
+	{
+  "role": "section",
+  "scene": {
+	  "type": "parallax_scale"
+  },
+  "components": [
+    {
+      "role": "header",
+
+      "layout": {
+        "columnStart": 0,
+        "columnSpan": 7,
+        "minimumHeight": "50vh"
+      },
+
+      "style": {
+        "fill": {
+          "type": "image",
+          "URL": "bundle://header-image.jpg"
+        }
+	}
+    },
+    {
+      "role": "intro",
+      "text": "This text is part of the section components like the image above.\n\n"
+    }
+  ]
+  },{
+		"role": "title",
+		"text": "My First Article"
+	}, {
+		"role": "body",
+		"text": "This is just over the minimum amount of JSON required to create a valid article in Apple News Format. If you were to delete the dictionary enclosing this text, you'd be there."
+	}],
+	"componentTextStyles": {}
+}
