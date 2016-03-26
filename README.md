@@ -84,3 +84,11 @@ There are four types of [Component Animations](https://developer.apple.com/libra
 ## Custom Fonts
 
 From a technical point of view custom fonts work, but there is [currently no mention](http://stackoverflow.com/a/36187801/1694526) in the Apple docs to confirm that you are allowed to use them. For safety only use those fonts listed at [iOSFonts.com](http://iOSFonts.com) and avoid the San Francisco font.
+
+## Parallax Header
+
+A parallax header can be achieved by adding a `behavior` key to a [Header](https://developer.apple.com/library/ios/documentation/General/Conceptual/Apple_News_Format_Ref/Header.html#//apple_ref/doc/uid/TP40015408-CH18-SW1) component with a value that is an object containing the key/value pair `type` and `parallax`. To adjust the speed of the [Parallax](https://developer.apple.com/library/ios/documentation/General/Conceptual/Apple_News_Format_Ref/ParallaxBehavior.html#//apple_ref/doc/uid/TP40015408-CH70-SW1) add a `factor` value between 0.5 (slowest) to 2.0 (fastest).
+
+## Animated Parallax Header
+
+A [Parallax Scale Header](https://developer.apple.com/library/ios/documentation/General/Conceptual/Apple_News_Format_Ref/ParallaxScaleHeader.html#//apple_ref/doc/uid/TP40015408-CH50-SW1) is more sophisticated than a normal parallax header. Its size scales at the same time as it moves. The header must however be placed within a [Section](https://developer.apple.com/library/ios/documentation/General/Conceptual/Apple_News_Format_Ref/Section.html#//apple_ref/doc/uid/TP40015408-CH34-SW1) or [Chapter](https://developer.apple.com/library/ios/documentation/General/Conceptual/Apple_News_Format_Ref/Chapter.html#//apple_ref/doc/uid/TP40015408-CH12-SW1) for it to be of this type.
