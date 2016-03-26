@@ -53,7 +53,7 @@ Note: The **thumbnailURL** must point to a file contained within the same folder
 
 You can embed a [tweet](https://developer.apple.com/library/ios/documentation/General/Conceptual/Apple_News_Format_Ref/Tweet.html#//apple_ref/doc/uid/TP40015408-CH37-SW1) in your article by simply adding it to the components. Two properties are required: **role** and **URL** and there are five optional properties: **anchor**, **behavior**, **identifier**, **layout** and **style**.
 
-Note: components are rendered in which they are listed.
+The `role` should be given as `tweet` and the `URL` is the tweet's link location from twitter. Similarly, you can embed an [Instagram](https://developer.apple.com/library/ios/documentation/General/Conceptual/Apple_News_Format_Ref/Instagram.html) post by simply using `instagram` in place of `tweet` and referencing an Instagram URL.
 
 ## Link Addition
 
